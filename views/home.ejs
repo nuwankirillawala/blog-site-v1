@@ -5,7 +5,7 @@
 <p><%= homeContent %></p>
 
 <%postArray.forEach(function(post){%>
-    <h2><%=post.title %></h2>
+    <h2><%=post.name %></h2>
     <p><%=post.body.substring(0, 100) + "..." %> <a href="/posts/<%=post.title%>">Read more</a></p>
 <%})%>
 
